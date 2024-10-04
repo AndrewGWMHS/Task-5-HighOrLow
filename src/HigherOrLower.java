@@ -1,6 +1,5 @@
 import java.util.Scanner;
-
-public class Main {
+public class HigherOrLower {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int guess = 0;
@@ -37,8 +36,5 @@ public class Main {
         else {
             System.out.println("You guessed it correctly!");
         }
-
-
-
     }
 }
